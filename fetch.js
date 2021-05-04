@@ -14,8 +14,6 @@ async function getProfileInfo() {
       <p>${json.bio}</p>
     `
 
-
-    console.log(name, avatar, bio, html)
   } else {
       let list = document.querySelector('.profile')
 
