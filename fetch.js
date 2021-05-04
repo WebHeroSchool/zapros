@@ -6,11 +6,6 @@ async function getProfileInfo() {
   if (profile.ok) {
     let json = await profile.json()
 
-    let avatar = json.avatar_url;
-    let name = json.name;
-    let bio = json.bio;
-    let html = json.html_url;
-
     let list = document.querySelector('.profile')
 
     list.innerHTML += `
